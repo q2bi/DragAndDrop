@@ -11,14 +11,15 @@
 
 		<!-- The main CSS file -->
 		<link href="<c:url value="/resources/css/style.css" />" rel="stylesheet" />
+		
 	</head>
 
 	<body>
-
+      
 		<form id="upload" method="post" action="upload.php" enctype="multipart/form-data">
+			
 			<div id="drop">
 				Drop Here
-
 				<a>Browse</a>
 				<input type="file" name="upl" multiple />
 			</div>
